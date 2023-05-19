@@ -129,13 +129,13 @@ const Ninja = () => {
                                         name="q3"
                                         value="B"
                                     />
-                                    <label htmlFor=""> It's suddenly so hot. Ooops! You are in hell. </label>
+                                    <label htmlFor=""> It&apos;s suddenly so hot. Ooops! You are in hell. </label>
                                 </div>
                             </div>
 
                             <div className="[&>div]:text-[#86b6fe] my-3">
                                 <p className="py-3 font-thin text-2xl">
-                                    4. What is a Ninja's favorite sword?
+                                    4. What is a Ninja&apos;s favorite sword?
                                 </p>
                                 <div className="pl-5 py-1">
                                     <input
