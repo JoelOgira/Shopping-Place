@@ -16,10 +16,12 @@ const Ninja = () => {
             const selectedOption = formData.get(questionName);
 
             if (selectedOption === correctAnswer[ i - 1 ]) {
+                console.log((selectedOption === correctAnswer[ i - 1 ]))
                 newCount += 25;
             }
         }
 
+        // Set interval to count up the
         const timer = setInterval(() => {
             if (output === newCount) {
                 clearInterval(timer)
